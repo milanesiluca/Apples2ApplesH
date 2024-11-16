@@ -1,0 +1,299 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\Apples2AppleTest\\xTestApples2Apple.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj",
+        "projectName": "ApplePlayerClient",
+        "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj",
+        "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj": {
+                "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj"
+              },
+              "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
+                "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\Apples2AppleTest\\xTestApples2Apple.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\Apples2AppleTest\\xTestApples2Apple.csproj",
+        "projectName": "xTestApples2Apple",
+        "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\Apples2AppleTest\\xTestApples2Apple.csproj",
+        "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\Apples2AppleTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj": {
+                "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj"
+              },
+              "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj": {
+                "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj"
+              },
+              "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
+                "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj",
+        "projectName": "ApplesToApples",
+        "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj",
+        "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
+                "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj",
+        "projectName": "StreamingDataObjects",
+        "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj",
+        "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

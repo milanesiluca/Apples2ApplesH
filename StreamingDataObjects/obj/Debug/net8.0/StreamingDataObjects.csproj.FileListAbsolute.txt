@@ -1,0 +1,11 @@
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\bin\Debug\net8.0\StreamingDataObjects.deps.json
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\bin\Debug\net8.0\StreamingDataObjects.dll
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\bin\Debug\net8.0\StreamingDataObjects.pdb
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.AssemblyInfoInputs.cache
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.AssemblyInfo.cs
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.csproj.CoreCompileInputs.cache
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.dll
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\refint\StreamingDataObjects.dll
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.pdb
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\ref\StreamingDataObjects.dll
