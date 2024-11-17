@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {}
+    "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
+    "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj",
+        "projectUniqueName": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj",
         "projectName": "StreamingDataObjects",
-        "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj",
+        "projectPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj",
         "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\obj\\",
+        "outputPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\StreamingDataObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,6 +1,6 @@
 ﻿namespace ApplePlayerClient.Interfaces
 {
-    internal interface IApplesPalyerClient
+    internal interface IApplesPlayerClient
     {
         void StartGameSession();
     }

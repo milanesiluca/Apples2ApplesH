@@ -24,3 +24,29 @@ C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.pdb
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.genruntimeconfig.cache
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ref\ApplePlayerClient.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplesToApples.deps.json
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplesToApples.runtimeconfig.json
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplesToApples.exe
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplePlayerClient.exe
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplePlayerClient.deps.json
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplePlayerClient.runtimeconfig.json
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplePlayerClient.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplePlayerClient.pdb
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplesToApples.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\StreamingDataObjects.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\ApplesToApples.pdb
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\bin\Debug\net8.0\StreamingDataObjects.pdb
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.csproj.AssemblyReference.cache
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.AssemblyInfoInputs.cache
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.AssemblyInfo.cs
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.csproj.CoreCompileInputs.cache
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.sourcelink.json
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePla.0892838C.Up2Date
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\refint\ApplePlayerClient.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.pdb
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.genruntimeconfig.cache
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ref\ApplePlayerClient.dll

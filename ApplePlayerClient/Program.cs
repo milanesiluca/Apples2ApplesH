@@ -5,14 +5,14 @@ using Microsoft.Extensions.DependencyInjection;
 
 
 var serviceProvider = new ServiceCollection()
-            .AddScoped<IApplesPalyerClient, ApplesPalyerClient>()
+            .AddScoped<IApplesPlayerClient, ApplesPlayerClient>()
             .BuildServiceProvider();
 
-var clientManager1 = serviceProvider.GetRequiredService<IApplesPalyerClient>();
+var clientManager1 = serviceProvider.GetRequiredService<IApplesPlayerClient>();
 
 
 Console.WriteLine("Connected to the Game Session");
 
-IApplesPalyerClient client = clientManager1;
+IApplesPlayerClient client = clientManager1;
 client.StartGameSession();
 

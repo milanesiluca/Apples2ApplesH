@@ -58,7 +58,7 @@ namespace ApplesToApples.GameClasses
             }
 
             
-            pointsToWin = 2;
+            //pointsToWin = 2;
 
             gameManager.Players = players;
             gameManager.RedApples = redApples;

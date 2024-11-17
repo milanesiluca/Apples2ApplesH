@@ -10,3 +10,15 @@ C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObje
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\refint\StreamingDataObjects.dll
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.pdb
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\ref\StreamingDataObjects.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\bin\Debug\net8.0\StreamingDataObjects.deps.json
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\bin\Debug\net8.0\StreamingDataObjects.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\bin\Debug\net8.0\StreamingDataObjects.pdb
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.AssemblyInfoInputs.cache
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.AssemblyInfo.cs
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.csproj.CoreCompileInputs.cache
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.sourcelink.json
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\refint\StreamingDataObjects.dll
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\StreamingDataObjects.pdb
+D:\Luca Milanesi - Hemtentan\Apples2Apples_C#\StreamingDataObjects\obj\Debug\net8.0\ref\StreamingDataObjects.dll

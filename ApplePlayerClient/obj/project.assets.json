@@ -152,11 +152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj",
+      "projectUniqueName": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj",
       "projectName": "ApplePlayerClient",
-      "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj",
+      "projectPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj",
       "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\obj\\",
+      "outputPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\ApplePlayerClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -173,11 +173,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj": {
-              "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj"
+            "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj": {
+              "projectPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj"
             },
-            "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
-              "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj"
+            "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
+              "projectPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj"
             }
           }
         }

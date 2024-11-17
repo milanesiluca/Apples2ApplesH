@@ -6,7 +6,7 @@ using StreamingDataObjects;
 
 namespace ApplesToApples.GameClasses
 {
-    internal class ApplesPalyerClient : IApplesPalyerClient
+    internal class ApplesPlayerClient : IApplesPlayerClient
 
     {
         private int id;
@@ -19,7 +19,7 @@ namespace ApplesToApples.GameClasses
  
         
 
-        public ApplesPalyerClient()
+        public ApplesPlayerClient()
         {
             clientSocket = new TcpClient("127.0.0.1", 2048);
             networkStream = clientSocket.GetStream();
