@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApplePlayerClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+177cc69ded61aa19e7a1003bda383bc88be4b8f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94726e3821e1d9c6112ca8cfa9927aaa8d7eb585")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApplePlayerClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApplePlayerClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

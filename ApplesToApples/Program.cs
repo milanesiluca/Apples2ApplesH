@@ -29,25 +29,9 @@ namespace ApplesToApples
 
             //shuffle cards
 
+            redApples = (List<string>)ShuffleCard(redApples);
+            greenApples = (List<string>)ShuffleCard(greenApples);
 
-            var rndR = new Random();
-            for (int i = redApples.Count - 1; i > 0; i--)
-            {
-                int index = rndR.Next(i + 1);
-                string a = redApples[index];
-                redApples[index] = redApples[i];
-                redApples[i] = a;
-            }
-
-
-            var rndG = new Random();
-            for (int i = greenApples.Count - 1; i > 0; i--)
-            {
-                int index = rndG.Next(i + 1);
-                string a = greenApples[index];
-                greenApples[index] = greenApples[i];
-                greenApples[i] = a;
-            }
 
             if (args.Length == 0)
             {
@@ -83,6 +67,21 @@ namespace ApplesToApples
                 }
             }  
             
+        }
+
+
+        private static IEnumerable<string> ShuffleCard(List<string> cards)
+        {
+            
+            var rndR = new Random();
+            for (int i = cards.Count - 1; i > 0; i--)
+            {
+                int index = rndR.Next(i + 1);
+                string a = cards[index];
+                cards[index] = cards[i];
+                cards[i] = a;
+            }
+            return cards;
         }
     }
 }
