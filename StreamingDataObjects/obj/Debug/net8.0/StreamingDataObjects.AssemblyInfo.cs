@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamingDataObjects")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94726e3821e1d9c6112ca8cfa9927aaa8d7eb585")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+780822af2a27aa9f4cb81a73976974fad8b68455")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamingDataObjects")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamingDataObjects")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

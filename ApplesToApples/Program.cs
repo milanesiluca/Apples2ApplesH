@@ -21,10 +21,13 @@ namespace ApplesToApples
 
 
 
-            string pathRed = @"C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplesToApples\Cards\redApples.txt";
+
+            string projectDirectory = Directory.GetParent(Directory.GetCurrentDirectory())!.FullName;
+
+            string pathRed = Path.Combine(projectDirectory, "ApplesToApples", "Cards", "redApples.txt");
             List<string> redApples = new List<string>(File.ReadAllLines(pathRed));
 
-            string pathGreen = @"C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplesToApples\Cards\greenApples.txt";
+            string pathGreen = Path.Combine(projectDirectory, "ApplesToApples", "Cards", "greenApples.txt");
             List<string> greenApples = new List<string>(File.ReadAllLines(pathGreen));
 
             //shuffle cards
