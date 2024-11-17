@@ -17,6 +17,7 @@ C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.AssemblyInfoInputs.cache
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.AssemblyInfo.cs
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.csproj.CoreCompileInputs.cache
+C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.sourcelink.json
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePla.0892838C.Up2Date
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\ApplePlayerClient.dll
 C:\Users\Luca\OneDrive\Skrivbord\Esame Finale\Apples2Apples_C#\ApplePlayerClient\obj\Debug\net8.0\refint\ApplePlayerClient.dll

@@ -87,6 +87,8 @@ namespace ApplesToApples.GameClasses
 
 
                 var receivedCard = new CountdownEvent(Players!.Count -1);
+                var allThreadsCompleted = new ManualResetEvent(false);
+
                 foreach (IPlayer player in Players)
                 {
                     ThreadPool.QueueUserWorkItem(_ =>
@@ -96,13 +98,20 @@ namespace ApplesToApples.GameClasses
                             var card = player.Play();
                             Apples2Apples.PlayedApple!.Add(card!);
                             Console.WriteLine($"Player {card!.PlayerID}: {card.Card}");
-                            receivedCard.Signal();
+                            if (receivedCard.Signal())
+                            {
+                                allThreadsCompleted.Set();
+                            }
                         }
                     });
                     
                 }
 
-                receivedCard.Wait();
+                //receivedCard.Wait();
+                while (!allThreadsCompleted.WaitOne(300))
+                {
+                   
+                }
 
 
                 judge = Players![judgePlayer];
