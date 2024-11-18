@@ -2,12 +2,13 @@
 using ApplesToApples.GameClasses.Interfaces;
 using ApplesToApples.Players.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 
 namespace ApplesToApples
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -25,15 +26,11 @@ namespace ApplesToApples
             string projectDirectory = Directory.GetParent(Directory.GetCurrentDirectory())!.FullName;
 
             string pathRed = Path.Combine(projectDirectory, "ApplesToApples", "Cards", "redApples.txt");
-            List<string> redApples = new List<string>(File.ReadAllLines(pathRed));
+            List<string> redApples = (List<string>)GameCardsManager.SetupGameCards(pathRed);
 
             string pathGreen = Path.Combine(projectDirectory, "ApplesToApples", "Cards", "greenApples.txt");
-            List<string> greenApples = new List<string>(File.ReadAllLines(pathGreen));
+            List<string> greenApples =  (List<string>)GameCardsManager.SetupGameCards(pathGreen);
 
-            //shuffle cards
-
-            redApples = (List<string>)ShuffleCard(redApples);
-            greenApples = (List<string>)ShuffleCard(greenApples);
 
 
             if (args.Length == 0)
@@ -86,6 +83,32 @@ namespace ApplesToApples
             }
             return cards;
         }
+    }
+
+    public static class GameCardsManager {
+
+
+        public static IEnumerable<string> SetupGameCards(string path)
+        {
+            List<string> cards = new List<string>(File.ReadAllLines(path!));
+            return ShuffleCard(cards);
+        }
+
+        private static IEnumerable<string> ShuffleCard(List<string> cards)
+        {
+
+            var rndR = new Random();
+            for (int i = cards.Count - 1; i > 0; i--)
+            {
+                int index = rndR.Next(i + 1);
+                string a = cards[index];
+                cards[index] = cards[i];
+                cards[i] = a;
+            }
+            return cards;
+        }
+
+
     }
 }
 

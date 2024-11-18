@@ -5669,11 +5669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\Apples2AppleTest\\xTestApples2Apple.csproj",
-      "projectName": "xTestApples2Apple",
-      "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\Apples2AppleTest\\xTestApples2Apple.csproj",
+      "projectUniqueName": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\xUnitTestApples2Apple\\xUnitTestApples2Apple.csproj",
+      "projectName": "xUnitTestApples2Apple",
+      "projectPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\xUnitTestApples2Apple\\xUnitTestApples2Apple.csproj",
       "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\Apples2AppleTest\\obj\\",
+      "outputPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\xUnitTestApples2Apple\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5690,14 +5690,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj": {
-              "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj"
+            "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj": {
+              "projectPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\ApplePlayerClient\\ApplePlayerClient.csproj"
             },
-            "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj": {
-              "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj"
+            "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj": {
+              "projectPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\ApplesToApples\\ApplesToApples.csproj"
             },
-            "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
-              "projectPath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj"
+            "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj": {
+              "projectPath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\StreamingDataObjects\\StreamingDataObjects.csproj"
             }
           }
         }

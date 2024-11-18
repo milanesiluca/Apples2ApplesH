@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FSPqY8C4rsU=",
+  "dgSpecHash": "9y4Vu9io7eE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luca\\OneDrive\\Skrivbord\\Esame Finale\\Apples2Apples_C#\\Apples2AppleTest\\xTestApples2Apple.csproj",
+  "projectFilePath": "D:\\Luca Milanesi - Hemtentan\\Apples2Apples_C#\\xUnitTestApples2Apple\\xUnitTestApples2Apple.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luca\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Luca\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
