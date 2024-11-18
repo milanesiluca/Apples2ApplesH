@@ -15,4 +15,8 @@
     <None Remove="NewFolder\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Moq.Contrib.HttpClient" Version="1.4.0" />
+  </ItemGroup>
+
 </Project>

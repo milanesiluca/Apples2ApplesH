@@ -15,6 +15,7 @@ namespace ApplesToApples
 
             var serviceProvider = new ServiceCollection()
             .AddScoped<IGameManager<IPlayer>, SingleJudgeGameManager>()
+            .AddScoped<IConsole, ConsoleManager>()
             .BuildServiceProvider();
 
             IPAddress adr = IPAddress.Parse("127.0.0.1");
@@ -91,10 +92,10 @@ namespace ApplesToApples
         public static IEnumerable<string> SetupGameCards(string path)
         {
             List<string> cards = new List<string>(File.ReadAllLines(path!));
-            return ShuffleCard(cards);
+            return GetShuffledCard(cards);
         }
 
-        private static IEnumerable<string> ShuffleCard(List<string> cards)
+        private static IEnumerable<string> GetShuffledCard(List<string> cards)
         {
 
             var rndR = new Random();

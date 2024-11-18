@@ -11,7 +11,6 @@ namespace ApplesToApples.GameClasses
     {
         private int id;
         private List<string>? hand;
-        private List<PlayedApple>? playedCards;
         NetworkStream networkStream;
         StreamWriter outToServer;
         StreamReader inFromServer;
@@ -47,7 +46,7 @@ namespace ApplesToApples.GameClasses
                 Console.Clear();
                 Console.BackgroundColor = ConsoleColor.DarkBlue;
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Nuovo Round!");
+                Console.WriteLine(" Nuovo Round! ");
                 Console.ResetColor();
                 Console.WriteLine();
                 int zi = 1;

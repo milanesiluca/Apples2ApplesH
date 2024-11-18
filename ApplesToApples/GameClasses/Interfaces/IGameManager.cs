@@ -15,6 +15,6 @@ namespace ApplesToApples.GameClasses.Interfaces
         TcpListener? Socket { get; set; }
         List<string>? GreenApples { get; set; }
         List<string>? RedApples { get; set; }
-        void ManageGameSession();
+        void ManageGameSession(); //Manage the flow of the game according the logic. 
     }
 }

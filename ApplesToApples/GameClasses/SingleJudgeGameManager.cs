@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace ApplesToApples.GameClasses
 {
-    internal class SingleJudgeGameManager : IGameManager<IPlayer>
+    public class SingleJudgeGameManager : IGameManager<IPlayer>
     {
         public List<IPlayer>? Players { get; set; } = new();
         public int PointsToWin { get; set; }
@@ -25,14 +25,20 @@ namespace ApplesToApples.GameClasses
         int judgePlayer = -1;
         bool firstRound = true;
 
+        private readonly IConsole _console;
+
+        public SingleJudgeGameManager(IConsole console)
+        {
+            _console = console;
+        }
 
         public void ManageGameSession()
         {
-            Console.Clear();    
+            _console.Clear();    
             while (!gameWon)
             {
-                Console.WriteLine("Nuovo Round!");
-                Console.WriteLine();
+                _console.WriteLine("Nuovo Round!");
+                _console.WriteLine("");
 
                 //chose and show the judge
                 if (firstRound == true)
@@ -43,18 +49,18 @@ namespace ApplesToApples.GameClasses
                 judge = Players![judgePlayer];
                 Console.BackgroundColor = ConsoleColor.DarkYellow;
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.Write($" Player {Players![judgePlayer].PlayerID} is the judge ");
+                _console.Write($" Player {Players![judgePlayer].PlayerID} is the judge ");
                 Console.ResetColor();
-                Console.WriteLine();
-                Console.WriteLine();
+                _console.WriteLine("");
+                _console.WriteLine(""); ;
 
                 //Chose and show the green apple
                 Console.BackgroundColor = ConsoleColor.DarkGreen;
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.Write($" Green Apple: {GreenApples![0]} ");
+                _console.Write($" Green Apple: {GreenApples![0]} ");
                 Console.ResetColor();
-                Console.WriteLine();
-                Console.WriteLine();
+                _console.WriteLine(""); ;
+                _console.WriteLine("");
                 GreenApples!.Remove(GreenApples[0]);
 
 
@@ -96,8 +102,8 @@ namespace ApplesToApples.GameClasses
                         if (player.PlayerID != Players[judgePlayer].PlayerID)
                         {
                             var card = player.Play();
-                            Apples2Apples.PlayedApple!.Add(card!);
-                            Console.WriteLine($"Player {card!.PlayerID}: {card.Card}");
+                            Apples2Apples.PlayedApple!.Add(card!);                
+                            _console.WriteLine($"Player {card!.PlayerID}: {card.Card}");                           
                             if (receivedCard.Signal())
                             {
                                 allThreadsCompleted.Set();
@@ -107,11 +113,7 @@ namespace ApplesToApples.GameClasses
                     
                 }
 
-                //receivedCard.Wait();
-                while (!allThreadsCompleted.WaitOne(300))
-                {
-                   
-                }
+                while (!allThreadsCompleted.WaitOne(1300)) { }
 
 
                 judge = Players![judgePlayer];
@@ -134,10 +136,10 @@ namespace ApplesToApples.GameClasses
                 Apples2Apples.PlayedApple.Clear();
 
 
-                Console.WriteLine();
-                Console.WriteLine("The winnint player: " + winningApple.PlayerID);
-                Console.WriteLine("The Winning Card: " + winningApple.Card);
-                Console.WriteLine();
+                _console.WriteLine("");
+                _console.WriteLine("The winnint player: " + winningApple.PlayerID);
+                _console.WriteLine("The Winning Card: " + winningApple.Card);
+                _console.WriteLine("");
 
                 CheckGameStatus(winningPlayer);
 
@@ -151,7 +153,9 @@ namespace ApplesToApples.GameClasses
         }//start game end
 
 
-
+        /*
+         The method to get the Judge Index
+         */
         private int GetJudgeIndex()
         {
             if (judgePlayer == -1)
@@ -174,32 +178,34 @@ namespace ApplesToApples.GameClasses
 
         }
 
-
+        /*
+         chek the status of the game: close the game sending the endMessage or call the method to send a new card to the players for the next round
+         */
         private void CheckGameStatus(IPlayer winningPlayer)
         {
             if (winningPlayer.GetScore() >= PointsToWin)
             {
-                Console.WriteLine();
+                _console.WriteLine("");
                 Console.BackgroundColor = ConsoleColor.DarkGreen;
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine(" The player " + winningPlayer.PlayerID + " has won the match ");
+                _console.WriteLine(" The player " + winningPlayer.PlayerID + " has won the match ");
                 Console.ResetColor();
-                Console.WriteLine();
+                _console.WriteLine("");
                 Console.BackgroundColor = ConsoleColor.DarkBlue;
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine(" Game Over! Thanks for playing with us ");
+                _console.WriteLine(" Game Over! Thanks for playing with us ");
                 Console.ResetColor();
-                Console.WriteLine();
-                Console.WriteLine();
+                _console.WriteLine("");
+                _console.WriteLine("");
                 SendEndSignal(winningPlayer.PlayerID);
                 gameWon = true;
             }
             else
             {
-                Console.WriteLine();
-                Console.WriteLine("press enter to start the next round");
-                _ = Console.ReadLine();
-                Console.Clear();
+                _console.WriteLine("");
+                _console.WriteLine("press enter to start the next round");
+                _ = _console.ReadLine();
+                _console.Clear();
                 AddOneAppleToPlayers();
 
                 judgePlayer = GetJudgeIndex();
@@ -214,6 +220,7 @@ namespace ApplesToApples.GameClasses
         }
 
 
+        //send the card to players in order to replace the played one
         private void AddOneAppleToPlayers() {
             foreach (IPlayer player in Players!) {
                 if (player.PlayerID != judge!.PlayerID)

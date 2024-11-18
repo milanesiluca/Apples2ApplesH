@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("xUnitTestApples2Apple")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72f3f45222b31ccd500b5a82740d1d93f1520a76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41350927cb25fe31a0ab6ddb8735f794be8ac201")]
 [assembly: System.Reflection.AssemblyProductAttribute("xUnitTestApples2Apple")]
 [assembly: System.Reflection.AssemblyTitleAttribute("xUnitTestApples2Apple")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
