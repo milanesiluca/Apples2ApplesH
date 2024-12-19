@@ -15,7 +15,7 @@ namespace ApplesToApples
 
             var serviceProvider = new ServiceCollection()
             .AddScoped<IGameManager<IPlayer>, SingleJudgeGameManager>()
-            .AddScoped<IConsole, ConsoleManager>()
+            .AddScoped<IInputOutput, ConsoleManager>()
             .BuildServiceProvider();
 
             IPAddress adr = IPAddress.Parse("127.0.0.1");
@@ -27,10 +27,10 @@ namespace ApplesToApples
             string projectDirectory = Directory.GetParent(Directory.GetCurrentDirectory())!.FullName;
 
             string pathRed = Path.Combine(projectDirectory, "ApplesToApples", "Cards", "redApples.txt");
-            List<string> redApples = (List<string>)GameCardsManager.SetupGameCards(pathRed);
+            List<string> redApples = (List<string>)GameCardsManager.SetupGameCards(pathRed , false);
 
             string pathGreen = Path.Combine(projectDirectory, "ApplesToApples", "Cards", "greenApples.txt");
-            List<string> greenApples =  (List<string>)GameCardsManager.SetupGameCards(pathGreen);
+            List<string> greenApples =  (List<string>)GameCardsManager.SetupGameCards(pathGreen, true);
 
 
 
@@ -89,7 +89,7 @@ namespace ApplesToApples
     public static class GameCardsManager {
 
 
-        public static IEnumerable<string> SetupGameCards(string path)
+        public static IEnumerable<string> SetupGameCards(string path , bool green)
         {
             List<string> cards = new List<string>(File.ReadAllLines(path!));
             return GetShuffledCard(cards);

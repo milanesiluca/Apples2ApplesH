@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ApplesToApples.GameClasses.Interfaces
 {
-    public interface IConsole
+    public interface IInputOutput
     {
-        void WriteLine(string message);
-        void Write(string message);
+        void ShowMessage(string message);
+        void ShowOneLineMessage(string message);
         void Clear();
-        string? ReadLine();
+        string? GetInput();
         void SetBackgroundColor(ConsoleColor color);
         void SetForegroundColor(ConsoleColor color);
         void ResetColor();

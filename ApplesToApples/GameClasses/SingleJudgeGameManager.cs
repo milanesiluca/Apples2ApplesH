@@ -25,9 +25,9 @@ namespace ApplesToApples.GameClasses
         int judgePlayer = -1;
         bool firstRound = true;
 
-        private readonly IConsole _console;
+        private readonly IInputOutput _console;
 
-        public SingleJudgeGameManager(IConsole console)
+        public SingleJudgeGameManager(IInputOutput console)
         {
             _console = console;
         }
@@ -37,8 +37,8 @@ namespace ApplesToApples.GameClasses
             _console.Clear();    
             while (!gameWon)
             {
-                _console.WriteLine("Nuovo Round!");
-                _console.WriteLine("");
+                _console.ShowMessage("Nuovo Round!");
+                _console.ShowMessage("");
 
                 //chose and show the judge
                 if (firstRound == true)
@@ -49,17 +49,17 @@ namespace ApplesToApples.GameClasses
                 judge = Players![judgePlayer];
                 Console.BackgroundColor = ConsoleColor.DarkYellow;
                 Console.ForegroundColor = ConsoleColor.White;
-                _console.Write($" Player {Players![judgePlayer].PlayerID} is the judge ");
+                _console.ShowOneLineMessage($" Player {Players![judgePlayer].PlayerID} is the judge ");
                 Console.ResetColor();
-                _console.WriteLine("");
-                _console.WriteLine(""); ;
+                _console.ShowMessage("");
+                _console.ShowMessage(""); ;
 
                 //Chose and show the green apple
                 Console.BackgroundColor = ConsoleColor.DarkGreen;
                 Console.ForegroundColor = ConsoleColor.White;
-                _console.Write($" Green Apple: {GreenApples![0]} ");
+                _console.ShowOneLineMessage($" Green Apple: {GreenApples![0]} ");
                 Console.ResetColor();
-                _console.WriteLine(""); ;
+                _console.ShowMessage(""); ;
                 _console.WriteLine("");
                 GreenApples!.Remove(GreenApples[0]);
 
@@ -103,7 +103,7 @@ namespace ApplesToApples.GameClasses
                         {
                             var card = player.Play();
                             Apples2Apples.PlayedApple!.Add(card!);                
-                            _console.WriteLine($"Player {card!.PlayerID}: {card.Card}");                           
+                            _console.ShowMessage($"Player {card!.PlayerID}: {card.Card}");                           
                             if (receivedCard.Signal())
                             {
                                 allThreadsCompleted.Set();
@@ -136,10 +136,10 @@ namespace ApplesToApples.GameClasses
                 Apples2Apples.PlayedApple.Clear();
 
 
-                _console.WriteLine("");
-                _console.WriteLine("The winnint player: " + winningApple.PlayerID);
-                _console.WriteLine("The Winning Card: " + winningApple.Card);
-                _console.WriteLine("");
+                _console.ShowMessage("");
+                _console.ShowMessage("The winnint player: " + winningApple.PlayerID);
+                _console.ShowMessage("The Winning Card: " + winningApple.Card);
+                _console.ShowMessage("");
 
                 CheckGameStatus(winningPlayer);
 
@@ -185,26 +185,26 @@ namespace ApplesToApples.GameClasses
         {
             if (winningPlayer.GetScore() >= PointsToWin)
             {
-                _console.WriteLine("");
+                _console.ShowMessage("");
                 Console.BackgroundColor = ConsoleColor.DarkGreen;
                 Console.ForegroundColor = ConsoleColor.White;
-                _console.WriteLine(" The player " + winningPlayer.PlayerID + " has won the match ");
+                _console.ShowMessage(" The player " + winningPlayer.PlayerID + " has won the match ");
                 Console.ResetColor();
-                _console.WriteLine("");
+                _console.ShowMessage("");
                 Console.BackgroundColor = ConsoleColor.DarkBlue;
                 Console.ForegroundColor = ConsoleColor.White;
-                _console.WriteLine(" Game Over! Thanks for playing with us ");
+                _console.ShowMessage(" Game Over! Thanks for playing with us ");
                 Console.ResetColor();
-                _console.WriteLine("");
-                _console.WriteLine("");
+                _console.ShowMessage("");
+                _console.ShowMessage("");
                 SendEndSignal(winningPlayer.PlayerID);
                 gameWon = true;
             }
             else
             {
-                _console.WriteLine("");
-                _console.WriteLine("press enter to start the next round");
-                _ = _console.ReadLine();
+                _console.ShowMessage("");
+                _console.ShowMessage("press enter to start the next round");
+                _ = _console.GetInput();
                 _console.Clear();
                 AddOneAppleToPlayers();
 
