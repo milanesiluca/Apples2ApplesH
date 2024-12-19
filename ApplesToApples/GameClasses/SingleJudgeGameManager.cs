@@ -60,7 +60,7 @@ namespace ApplesToApples.GameClasses
                 _console.ShowOneLineMessage($" Green Apple: {GreenApples![0]} ");
                 Console.ResetColor();
                 _console.ShowMessage(""); ;
-                _console.WriteLine("");
+                _console.ShowMessage("");
                 GreenApples!.Remove(GreenApples[0]);
 
 
